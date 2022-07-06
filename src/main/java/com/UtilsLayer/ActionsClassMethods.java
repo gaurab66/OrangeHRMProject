@@ -8,8 +8,9 @@ import com.BaseLayer.BaseClass;
 
 public class ActionsClassMethods extends BaseClass {
 //click, double click, right click, dragAndDrog, moveToElement,clickAndHold,
-	// KeyDown, KeyUP,
-
+	// KeyDown, KeyUp
+	
+	
 	public static void clickOnElement(WebElement wb) {
 		new Actions(driver).click(wb).build().perform();
 	}

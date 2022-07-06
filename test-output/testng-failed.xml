@@ -5,11 +5,40 @@
     <classes>
       <class name="com.TestLayer.PIMPageTest">
         <methods>
+          <include name="validateHomePageTitle"/>
+          <include name="validateMorePersonalInformation"/>
+          <include name="validateUserandDelete"/>
+          <include name="validateHomePagePIMPage"/>
+          <include name="validateHomePageUrl"/>
+          <include name="validateHomePagelogo"/>
           <include name="setUp"/>
           <include name="validateJobDetailFunctionality"/>
           <include name="tearDown"/>
+          <include name="loginFunctionality"/>
+          <include name="validateCreateNewUserFunctionality"/>
         </methods>
       </class> <!-- com.TestLayer.PIMPageTest -->
+      <class name="com.TestLayer.HomePageTest">
+        <methods>
+          <include name="validateUrl"/>
+          <include name="validateMyInfoPage"/>
+          <include name="tearDown"/>
+          <include name="validateleavePage"/>
+          <include name="validateAdminPage"/>
+          <include name="validateLogin"/>
+          <include name="validateLogo"/>
+          <include name="setUp"/>
+          <include name="validatePimPage"/>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- com.TestLayer.HomePageTest -->
+      <class name="com.TestLayer.LoginPageTest">
+        <methods>
+          <include name="validateLoginFunctionality"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestLayer.LoginPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

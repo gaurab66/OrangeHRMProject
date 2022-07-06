@@ -22,7 +22,7 @@ public class ExtentReportListener extends ExtentReportSetup implements ITestList
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		extenttest.log(Status.PASS, "Test Case is Pune ::::: " + result.getMethod().getMethodName());
+		extenttest.log(Status.PASS, "Test Case is Pass ::::: " + result.getMethod().getMethodName());
 
 		extenttest.addScreenCaptureFromPath(
 				UtilsClass.takeScreenShot("\\MaylPassScreenshot\\" + result.getMethod().getMethodName()));

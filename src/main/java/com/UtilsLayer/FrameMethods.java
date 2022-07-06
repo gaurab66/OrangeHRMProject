@@ -7,7 +7,7 @@ import com.BaseLayer.BaseClass;
 
 public class FrameMethods extends BaseClass {
 
-	// switch to child frame by using frame nameorid
+	// switch to child frame by using frame nameOrId
 	public static WebDriver switchToChildFrameUsingName(String nameid) {
 		return driver.switchTo().frame(nameid);
 	}
@@ -17,7 +17,7 @@ public class FrameMethods extends BaseClass {
 		return driver.switchTo().frame(index);
 	}
 
-	// switch to child frame by using frame index
+	// switch to child frame by using WebElement wb
 	public static WebDriver switchToChildFrameUsingWebElement(WebElement wb) {
 		return driver.switchTo().frame(wb);
 	}
